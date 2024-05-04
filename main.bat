@@ -152,7 +152,7 @@
 
 			::NODEARCHITETURE code;
 				:NodeArquitectura
-				set carpeta="MODULOS"
+				set carpeta="MODULES"
 				set tecno="Node"
 				set template="TEMPLATES"
 				SET /p TITLE=NOMBRE MODULO (no debe contener espacios):
@@ -186,9 +186,9 @@
 
 			::REACTARCHITETURE code;
 				:ReactArquitectura
-				set carpeta="MODULOS"
+				set carpeta="MODULES"
 				set tecno="React"
-				tree modulos\Node
+				tree carpeta\Node
 				ECHO Presione cualquier tecla para continuar...
 				ECHO.
 				PAUSE > NUL
@@ -196,7 +196,7 @@
 			;
 			::LIMPIARARCHITETURE code;
 				:LimpiarArquitectura
-				set carpeta="MODULOS"
+				set carpeta="MODULES"
 				@RD /S /Q  %carpeta%
 				MKDIR %carpeta%
 				tree %carpeta% /f
