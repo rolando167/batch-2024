@@ -1,0 +1,10 @@
+
+
+Rerenfencias:
+
+https://www.ionos.es/digitalguide/servidores/herramientas/crear-un-archivo-batch/
+
+
+https://stackoverflow.com/questions/60792422/is-there-a-way-to-create-a-cmd-command-with-arguments
+
+https://content.instructables.com/FGP/9SY7/HAOPV3KT/FGP9SY7HAOPV3KT.bat
